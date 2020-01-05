@@ -15,6 +15,7 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: fixed;
 }
 
 /* Top Line */
@@ -70,7 +71,7 @@ html, body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-grow: 2;
-  align-items: center;
+  align-items: stretch;
   margin: 50px;
 }
 
