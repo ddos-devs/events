@@ -1,0 +1,134 @@
+html, body {
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background: url('../img/bg.jpeg') center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Top Line */
+.top-line {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.top-line img {
+  height: 80px;
+  padding: 10px 20px;
+}
+
+.shape {
+  background: white;
+  display: inline-block;
+  height: 55px;
+  margin-left: 20px;
+  position: relative;
+  width: 100px;
+  color: darkblue;
+  line-height: 75px;
+  text-align:center;
+  font-size: 2rem;
+}
+.shape:before {
+  border-top: 35px solid white;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  bottom: -35px;
+  width: 0;
+}
+
+/* Header Line */
+.header {
+  background: rgba(159, 159, 159, 0.4);
+  font-size: 5vmin;
+  font-family: 'Lato', sans-serif;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Speakers line */
+.speakers {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  align-items: center;
+  margin: 50px;
+}
+
+.speaker-image {
+  height: 20vmin;
+  width: 20vmin;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.speaker-title, .speaker-author {
+  width: 30vmin;
+  min-width: 200px;
+  font-size: 1.5rem;
+}
+
+.speaker-author {
+  color: antiquewhite;
+  margin: 0;
+}
+
+.speaker-title {
+  margin-top: 5px;
+}
+
+/* Footer Line */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.footer img {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.footer .icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 25px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+}
+
+.box p {
+  margin: 0;
+  text-align: start;
+}
