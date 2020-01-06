@@ -38,6 +38,7 @@ function updateSpeakers(speakers) {
   speakers.forEach((speaker) => {
     const newSpeaker = createElementFromHTML(`<div>
       <img class="speaker-image" src="img/${speaker.img}">
+      ${speaker.isGuest ? `<div class="speaker-guest">מרצה אורח</div>`: ""}
       <p class="speaker-author">${speaker.name}</p>
       <p class="speaker-title">${speaker.title}</p>
     </div>`);

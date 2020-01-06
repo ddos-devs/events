@@ -26,21 +26,21 @@ html, body {
 }
 
 .top-line img {
-  height: 80px;
+  height: 100px;
   padding: 10px 20px;
 }
 
 .shape {
   background: white;
   display: inline-block;
-  height: 55px;
+  height: 70px;
   margin-left: 20px;
   position: relative;
   width: 100px;
   color: darkblue;
   line-height: 75px;
   text-align:center;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .shape:before {
   border-top: 35px solid white;
@@ -82,6 +82,16 @@ html, body {
   border: 5px solid white;
 }
 
+.speaker-guest {
+    background-color: #ffb900;
+    margin: 0 auto -25px;
+    height: 25px;
+    width: 15vmin;
+    position: relative;
+    bottom: 25px;
+    font-size: 1.1rem;
+}
+
 .speaker-title, .speaker-author {
   width: 30vmin;
   min-width: 200px;
@@ -89,8 +99,8 @@ html, body {
 }
 
 .speaker-author {
-  color: antiquewhite;
   margin: 0;
+  color: lightgrey;
 }
 
 .speaker-title {
@@ -126,10 +136,11 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 200px;
+  width: 250px;
 }
 
 .box p {
   margin: 0;
   text-align: start;
+  font-size: 20px;
 }
