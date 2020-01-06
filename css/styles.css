@@ -40,7 +40,7 @@ html, body {
   color: darkblue;
   line-height: 75px;
   text-align:center;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .shape:before {
   border-top: 35px solid white;
