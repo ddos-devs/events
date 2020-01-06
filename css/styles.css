@@ -40,7 +40,7 @@ html, body {
   color: darkblue;
   line-height: 75px;
   text-align:center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .shape:before {
   border-top: 35px solid white;
@@ -83,9 +83,13 @@ html, body {
 }
 
 .speaker-guest {
-  width: 20vmin;
-  background-color: #ffb900;
-  margin: auto;
+    background-color: #ffb900;
+    margin: 0 auto -25px;
+    height: 25px;
+    width: 15vmin;
+    position: relative;
+    bottom: 25px;
+    font-size: 1.1rem;
 }
 
 .speaker-title, .speaker-author {
