@@ -83,7 +83,6 @@ html, body {
 }
 
 .speaker-guest {
-  height: 4vmin;
   width: 20vmin;
   background-color: #ffb900;
   margin: auto;
