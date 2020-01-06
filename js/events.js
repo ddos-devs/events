@@ -24,7 +24,7 @@ const events = {
     speakers: [
       {img: 'rafi.jpeg', name: 'רפי דינרי', title: 'Protecting sensitive data in a Serverless DB'},
       {img: 'avinoam.jpeg', name: 'אבינועם אהרוני', title: 'Full-stack development with WASM & Blazor'},
-      {img: 'ran.jpeg', name: 'רן בר זיק', title: 'Client Side Security'}
+      {img: 'ran.jpeg', name: 'רן בר זיק', title: 'Client Side Security', isGuest: true}
     ],
     footer: [
       {
@@ -33,11 +33,11 @@ const events = {
       },
       {
         icon: 'location-icon.png',
-        text: ['מייקרוסופט ריאקטור', 'רח\' דובנוב 7, תל אביב']
+        text: ['מייקרוסופט ריאקטור', 'רח\' דובנוב 7, תל אביב', '(חניה במקום)']
       },
       {
         icon: 'calendar-icon.png',
-        text: ['ליל שישי', 'כ"ה שבט תש"פ - 20/02/20']
+        text: ['יום חמישי', 'כ"ה שבט תש"פ - 20/02/20']
       },
       {
         icon: 'clock-icon.png',
