@@ -22,7 +22,7 @@ const events = {
   },
   4: {
     speakers: [
-      {img: 'rafi2.jpeg', name: 'רפי דינרי', title: 'Protecting sensitive data in a Serverless DB'},
+      {img: 'rafi2.jpeg', name: 'רפי דינרי', title: 'Sensitive Data Protection in DBaaS'},
       {img: 'avinoam.jpeg', name: 'אבינועם אהרוני', title: 'Full-stack development with WASM & Blazor'},
       {img: 'ran.jpeg', name: 'רן בר זיק', title: 'Client Side Security', isGuest: true}
     ],
